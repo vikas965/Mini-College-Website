@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./css/home.css">
   </head>
   <body>
+    <div id = "loading"></div>
     <!-- nav section start.... -->
     <nav class="nav-container">
       <div class="nav-center wrapper">
@@ -487,6 +488,12 @@ Established in the year 1997 by GMR Varalakshmi Foundation
 
     <script src="./app.js">
       
+    </script>
+    <script>
+      var loader = document.getElementById("loading");
+      window.addEventListener("load",function(){
+        loader.style.display = "none";
+      })
     </script>
   </body>
 </html>
