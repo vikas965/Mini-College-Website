@@ -1,4 +1,14 @@
 
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: url(../clgimages/loading-animation-css.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 999;
+}
 
 
 
@@ -41,6 +51,16 @@
   }
   .paddingBottomMobile-fifty{
     padding-bottom: 50px !important;
+  }
+  #loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url(../clgimages/loading-animation-css.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
   }
 }
 
@@ -109,6 +129,16 @@
  .paddingBottomDesktop-hundred{
      padding-bottom:100px !important;
  }
+  #loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url(../clgimages/loading-animation-css.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+  }
 }
 
 
